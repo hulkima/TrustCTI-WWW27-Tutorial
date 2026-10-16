@@ -1,0 +1,59 @@
+/* Inline SVG from the user-provided reference; synchronized eight-second infinite loop. */
+.threat-visual{position:relative;margin:0;padding:26px 8px 10px;isolation:isolate}
+.threat-visual::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(#356c4310 1px,transparent 1px),linear-gradient(90deg,#356c4310 1px,transparent 1px);background-size:25px 25px;mask-image:radial-gradient(ellipse,#000 35%,transparent 74%);-webkit-mask-image:radial-gradient(ellipse,#000 35%,transparent 74%)}
+.threat-visual .threat-illustration{display:block;width:100%;height:auto;overflow:visible;fill:initial;stroke:none;stroke-width:initial;stroke-linecap:butt;stroke-linejoin:miter;font-family:"Source Sans 3",Arial,sans-serif}
+.animation-toggle{position:absolute;z-index:1;right:10px;top:8px;font:600 11px/1.2 "Source Sans 3",Arial,sans-serif;color:#48664f;background:#ffffff60;border:1px solid #85a78d70;border-radius:5px;padding:5px 9px;cursor:pointer}
+.animation-toggle:hover{background:#ffffffb0}
+.animation-toggle:focus-visible{outline:2px solid #226740;outline-offset:3px}
+.threat-visual .animation-target{animation-duration:8s;animation-timing-function:ease-out;animation-iteration-count:infinite;animation-fill-mode:both}
+.threat-visual .draw{stroke-dasharray:1;stroke-dashoffset:0}
+.threat-visual[data-paused="true"] .animation-target{animation-play-state:paused}
+.threat-visual .ill-sheet{filter:drop-shadow(0 12px 16px #25432b18)}
+.threat-visual .ill-hl rect{mix-blend-mode:multiply}
+.threat-visual .ill-label{fill:#254a34;font-size:15px;font-weight:700}
+.threat-visual .ill-trace path{fill:none;stroke:#b58b13;stroke-width:1.6;stroke-dasharray:4 5}
+.threat-visual .ill-edges path{fill:none;stroke:#4b805b;stroke-width:2;stroke-linecap:round}
+.threat-visual .ill-nodes circle{fill:#27633f}
+.threat-visual .ill-nodes .core{fill:#f5faf3}
+.threat-visual .ill-node-label text{fill:#355e42;font-size:12px;font-weight:600}
+.threat-visual .ill-conf rect{fill:#f3f8ef;stroke:#8eaa7a}
+.threat-visual .ill-conf text{fill:#56723e;font-size:10.5px;font-weight:700;text-anchor:middle}
+.threat-visual .ill-flow{fill:none;stroke:#4b805b;stroke-width:1.8}
+.threat-visual .ill-arrow{fill:#4b805b}
+.threat-visual .ill-spec>rect:first-child{fill:#f8fcf7;stroke:#a7c1ab}
+.threat-visual .ill-spec .k rect{fill:#9bb9a2}
+.threat-visual .ill-spec .v rect{fill:#4b7759}
+.threat-visual .ill-code{fill:#54725c;font-size:11.5px;font-weight:600;font-family:ui-monospace,"SFMono-Regular",Menlo,monospace}
+.threat-visual .ill-range .card{fill:#fff;stroke:#afc7b2;stroke-width:.8}
+.threat-visual .ill-range>circle{fill:#bfd5c2}
+.threat-visual .ill-range .ill-code{fill:#54725c}
+.threat-visual .ill-check circle{fill:#ffd84d}
+.threat-visual .ill-check path{fill:none;stroke:#3c603c;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.threat-visual .ill-row{fill:#254b34;font-size:12px;font-weight:600}
+.threat-visual .ill-badge circle{fill:#ffd84d}
+.threat-visual .ill-badge text{fill:#254b34;font-size:13px;font-weight:700}
+.threat-visual .ill-badge .n{fill:#254b34;text-anchor:middle;font-size:12px;font-weight:700}
+@keyframes threat-sequence-1{0%,1.875%{opacity:0} 9.375%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-2{0%,6.25%{opacity:0} 13.75%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-3{0%,11.25%{stroke-dashoffset:1;opacity:1} 20%,84%{stroke-dashoffset:0;opacity:1} 93%{stroke-dashoffset:0;opacity:0} 94%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes threat-sequence-4{0%,12.5%{stroke-dashoffset:1;opacity:1} 21.25%,84%{stroke-dashoffset:0;opacity:1} 93%{stroke-dashoffset:0;opacity:0} 94%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes threat-sequence-5{0%,14.375%{stroke-dashoffset:1;opacity:1} 23.125%,84%{stroke-dashoffset:0;opacity:1} 93%{stroke-dashoffset:0;opacity:0} 94%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes threat-sequence-6{0%,15.625%{stroke-dashoffset:1;opacity:1} 24.375%,84%{stroke-dashoffset:0;opacity:1} 93%{stroke-dashoffset:0;opacity:0} 94%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes threat-sequence-7{0%,17.5%{stroke-dashoffset:1;opacity:1} 26.25%,84%{stroke-dashoffset:0;opacity:1} 93%{stroke-dashoffset:0;opacity:0} 94%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes threat-sequence-8{0%,18.75%{opacity:0} 26.25%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-9{0%,21.25%{stroke-dashoffset:1;opacity:1} 30%,84%{stroke-dashoffset:0;opacity:1} 93%{stroke-dashoffset:0;opacity:0} 94%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes threat-sequence-10{0%,26.25%{opacity:0} 33.75%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-11{0%,23.75%{opacity:0} 31.25%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-12{0%,26.25%{stroke-dashoffset:1;opacity:1} 35%,84%{stroke-dashoffset:0;opacity:1} 93%{stroke-dashoffset:0;opacity:0} 94%,100%{stroke-dashoffset:1;opacity:0}}
+@keyframes threat-sequence-13{0%,28.75%{opacity:0} 36.25%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-14{0%,30%{opacity:0} 37.5%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-15{0%,32.5%{opacity:0} 40%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-16{0%,35%{opacity:0} 42.5%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-17{0%,8.75%{opacity:0} 16.25%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-18{0%,20%{opacity:0} 27.5%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-19{0%,25%{opacity:0} 32.5%,84%{opacity:1} 94%,100%{opacity:0}}
+@keyframes threat-sequence-20{0%,28.75%{opacity:0} 36.25%,84%{opacity:1} 94%,100%{opacity:0}}
+
+@media(prefers-reduced-motion:reduce){.threat-visual:not([data-motion-override="true"]) .animation-target{animation:none;opacity:1;stroke-dashoffset:0}}
+@media(max-width:620px){.threat-visual{padding:28px 0 8px}.animation-toggle{font-size:10px;padding:4px 7px;right:3px;top:7px}}
+@media print{.animation-toggle{display:none}.threat-visual .animation-target{animation:none;opacity:1;stroke-dashoffset:0}.threat-visual{print-color-adjust:exact;-webkit-print-color-adjust:exact}}

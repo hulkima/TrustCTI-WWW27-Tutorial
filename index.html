@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f7f0">
+  <meta name="description" content="From Reports, Beyond Reports: Trustworthy Cyber Defense with Large Language Models and Web Threat Intelligence. A tutorial proposal for WWW 2027 in Dublin, Ireland.">
+  <title>From Reports, Beyond Reports | WWW 2027 Tutorial Proposal</title>
+  <link rel="icon" href="assets/logos/www2027.png" type="image/png">
+  <link rel="preload" href="assets/fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="animation.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="wordmark" href="#top" aria-label="WWW 2027 tutorial, back to top"><img class="conference-logo" src="assets/logos/www2027.png" alt="The ACM Web Conference" width="1001" height="398"><span class="wordmark-caption">WWW 2027<span>Tutorial</span><span class="header-status">In submission</span></span></a>
+    <nav aria-label="Main navigation"><a href="#abstract">Abstract</a><a href="#overview">Overview</a><a href="#agenda">Agenda</a><a href="#slides">Slides</a><a href="#organizers">Organizers</a><a href="#links">Links</a></nav>
+  </div>
+</header>
+<main id="main">
+  <div class="hero-band">
+  <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+    <div class="hero-context"><p>A tutorial proposal for The ACM Web Conference 2027</p><span class="submission-status"><i aria-hidden="true"></i>In submission</span></div>
+    <h1 id="hero-title">From Reports, Beyond Reports</h1>
+    <div class="hero-feature">
+      <div class="hero-details">
+    <p class="hero-subtitle">Trustworthy Cyber Defense with <span class="keep-together">Large Language Models</span> and Web Threat Intelligence</p>
+    <dl class="event-meta">
+      <div><dt>When</dt><dd>10–14 May 2027<span>Conference dates · Tutorial day to be announced</span></dd></div>
+      <div><dt>Where</dt><dd>Dublin, Ireland<span>The ACM Web Conference 2027</span></dd></div>
+      <div><dt>Format</dt><dd>Half-day, 3 hours<span>Proposed lectures, demonstration, and Q&amp;A</span></dd></div>
+    </dl>
+      </div>
+      <figure class="threat-visual" data-paused="false" aria-label="Animated tutorial workflow">
+        <button class="animation-toggle" type="button" aria-pressed="false" hidden>Pause animation</button>
+        <svg viewBox="0 0 640 470" class="threat-illustration" role="img" aria-labelledby="threat-title threat-description">
+            <title id="threat-title">From Web evidence to verified cyber defense</title>
+            <desc id="threat-description">Highlighted evidence in a Web threat report connects to an attack graph, becomes a reproducible scenario, and ends with an attack replay, a deployed defense, and a verified outcome. The illustration repeats in an eight-second sequence.</desc>
+            <!-- 1. the report -->
+            <text x="20" y="56" class="ill-label">Web threat report</text>
+            <g class="ill-sheet">
+              <rect x="20" y="70" width="200" height="280" rx="12" fill="#FFFFFF"/>
+              <path d="M20 82a12 12 0 0 1 12-12h176a12 12 0 0 1 12 12v24H20z" fill="#edf5ed"/>
+              <circle cx="40" cy="88" r="6" fill="#23613f"/>
+              <rect x="54" y="84" width="96" height="8" rx="4" fill="#23613f"/>
+              <rect x="160" y="84" width="40" height="8" rx="4" fill="#a6c4ab"/>
+              <g fill="#d7e2da">
+                <rect x="38" y="124" width="164" height="7" rx="3.5"/>
+                <rect x="38" y="142" width="150" height="7" rx="3.5"/>
+                <rect x="38" y="160" width="160" height="7" rx="3.5"/>
+                <rect x="38" y="178" width="120" height="7" rx="3.5"/>
+                <rect x="38" y="196" width="158" height="7" rx="3.5"/>
+                <rect x="38" y="214" width="140" height="7" rx="3.5"/>
+                <rect x="38" y="232" width="164" height="7" rx="3.5"/>
+                <rect x="38" y="250" width="110" height="7" rx="3.5"/>
+                <rect x="38" y="268" width="150" height="7" rx="3.5"/>
+                <rect x="38" y="286" width="96" height="7" rx="3.5"/>
+                <rect x="38" y="304" width="140" height="7" rx="3.5"/>
+                <rect x="38" y="322" width="126" height="7" rx="3.5"/>
+              </g>
+              <g fill="#FFD84D" class="ill-hl fade animation-target" style="animation-name:threat-sequence-1">
+                <rect x="68" y="138" width="86" height="15" rx="2"/>
+                <rect x="34" y="192" width="102" height="15" rx="2"/>
+                <rect x="82" y="246" width="68" height="15" rx="2"/>
+                <rect x="34" y="300" width="80" height="15" rx="2"/>
+              </g>
+            </g>
+
+            <!-- trace lines: evidence to graph nodes -->
+            <g class="ill-trace fade animation-target" style="animation-name:threat-sequence-2">
+              <path d="M154 145 C 220 145, 250 128, 306 128"/>
+              <path d="M136 199 C 230 199, 300 212, 388 212"/>
+              <path d="M150 253 C 300 253, 470 262, 548 262"/>
+            </g>
+
+            <!-- 2. the attack graph -->
+            <g class="ill-edges">
+              <path class="draw animation-target" style="animation-name:threat-sequence-3"  pathLength="1" d="M318 128 L430 92"/>
+              <path class="draw animation-target" style="animation-name:threat-sequence-4" pathLength="1" d="M318 128 L400 212"/>
+              <path class="draw animation-target" style="animation-name:threat-sequence-5" pathLength="1" d="M430 92 L530 170"/>
+              <path class="draw animation-target" style="animation-name:threat-sequence-6" pathLength="1" d="M400 212 L530 170"/>
+              <path class="draw animation-target" style="animation-name:threat-sequence-7" pathLength="1" d="M530 170 L560 262"/>
+            </g>
+            <g class="ill-conf fade animation-target" style="animation-name:threat-sequence-8">
+              <rect x="356" y="102" width="36" height="17" rx="8.5"/><text x="374" y="114.5">0.93</text>
+              <rect x="447" y="183" width="36" height="17" rx="8.5"/><text x="465" y="195.5">0.78</text>
+              <rect x="527" y="208" width="36" height="17" rx="8.5"/><text x="545" y="220.5">0.86</text>
+            </g>
+            <g class="ill-nodes">
+              <circle cx="318" cy="128" r="11"/><circle cx="318" cy="128" r="4.5" class="core"/>
+              <circle cx="430" cy="92"  r="11"/><circle cx="430" cy="92"  r="4.5" class="core"/>
+              <circle cx="400" cy="212" r="11"/><circle cx="400" cy="212" r="4.5" class="core"/>
+              <circle cx="530" cy="170" r="11"/><circle cx="530" cy="170" r="4.5" class="core"/>
+              <circle cx="560" cy="262" r="11"/><circle cx="560" cy="262" r="4.5" class="core"/>
+            </g>
+            <g class="ill-node-label">
+              <text x="318" y="108" text-anchor="middle">Initial access</text>
+              <text x="430" y="72"  text-anchor="middle">Execution</text>
+              <text x="386" y="238" text-anchor="end">Persistence</text>
+              <text x="530" y="150" text-anchor="middle">Lateral movement</text>
+              <text x="560" y="290" text-anchor="middle">Exfiltration</text>
+            </g>
+
+            <!-- 3. scenario spec -->
+            <path class="ill-flow draw animation-target" style="animation-name:threat-sequence-9" pathLength="1" d="M400 225 L400 322"/>
+            <path class="ill-arrow fade animation-target" style="animation-name:threat-sequence-10" d="M394 320 L400 330 L406 320 Z"/>
+            <g class="ill-spec">
+              <rect x="250" y="332" width="172" height="112" rx="12"/>
+              <text x="266" y="356" class="ill-code">scenario.yaml</text>
+              <g class="k"><rect x="266" y="370" width="42" height="7" rx="3.5"/><rect x="266" y="388" width="34" height="7" rx="3.5"/><rect x="266" y="406" width="46" height="7" rx="3.5"/><rect x="266" y="424" width="30" height="7" rx="3.5"/></g>
+              <g class="v fade animation-target" style="animation-name:threat-sequence-11"><rect x="318" y="370" width="84" height="7" rx="3.5"/><rect x="318" y="388" width="62" height="7" rx="3.5"/><rect x="318" y="406" width="88" height="7" rx="3.5"/><rect x="318" y="424" width="54" height="7" rx="3.5"/></g>
+            </g>
+
+            <!-- 4. range -->
+            <path class="ill-flow draw animation-target" style="animation-name:threat-sequence-12" pathLength="1" d="M424 388 L436 388"/>
+            <path class="ill-arrow fade animation-target" style="animation-name:threat-sequence-13" d="M434 382 L444 388 L434 394 Z"/>
+            <g class="ill-range">
+              <rect x="446" y="332" width="178" height="112" rx="12" class="card"/>
+              <circle cx="464" cy="350" r="3.5"/><circle cx="476" cy="350" r="3.5"/><circle cx="488" cy="350" r="3.5"/>
+              <text x="606" y="354" text-anchor="end" class="ill-code">range</text>
+              <g class="ill-check fade animation-target" style="animation-name:threat-sequence-14"><circle cx="468" cy="380" r="8"/><path d="M464 380 l3 3 l5 -6"/></g>
+              <g class="ill-check fade animation-target" style="animation-name:threat-sequence-15"><circle cx="468" cy="404" r="8"/><path d="M464 404 l3 3 l5 -6"/></g>
+              <g class="ill-check fade animation-target" style="animation-name:threat-sequence-16"><circle cx="468" cy="428" r="8"/><path d="M464 428 l3 3 l5 -6"/></g>
+              <text x="484" y="384" class="ill-row">Attack replayed</text>
+              <text x="484" y="408" class="ill-row">Defense deployed</text>
+              <text x="484" y="432" class="ill-row">Outcome verified</text>
+            </g>
+
+            <!-- stage badges -->
+            <g class="ill-badge fade animation-target" style="animation-name:threat-sequence-17"><circle cx="238" cy="172" r="11"/><text x="238" y="176" class="n">1</text><text x="255" y="177">Traceable</text></g>
+            <g class="ill-badge fade animation-target" style="animation-name:threat-sequence-18"><circle cx="486" cy="40" r="11"/><text x="486" y="44" class="n">2</text><text x="503" y="45">Faithful</text></g>
+            <g class="ill-badge fade animation-target" style="animation-name:threat-sequence-19"><circle cx="262" cy="316" r="11"/><text x="262" y="320" class="n">3</text><text x="279" y="321">Reproducible</text></g>
+            <g class="ill-badge fade animation-target" style="animation-name:threat-sequence-20"><circle cx="458" cy="316" r="11"/><text x="458" y="320" class="n">4</text><text x="475" y="321">Verifiable</text></g>
+          </svg>
+      </figure>
+    </div>
+    <div class="affiliation-strip"><p>Organized by researchers from</p><div class="university-logos">
+      <a href="https://www.nus.edu.sg/" target="_blank" rel="noopener noreferrer" aria-label="National University of Singapore"><img src="assets/logos/nus.gif" alt="National University of Singapore" width="208" height="105"></a>
+      <a href="https://www.pku.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="Peking University"><img src="assets/logos/pku.png" alt="Peking University" width="852" height="240"></a>
+      <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener noreferrer" aria-label="Singapore Management University"><img src="assets/logos/smu.svg" alt="Singapore Management University" width="131" height="70"></a>
+    </div></div>
+  </section>
+
+  </div>
+  <div class="body-surface">
+    <section id="abstract" class="abstract-section section-wrap split-section" aria-labelledby="abstract-title">
+      <div class="section-heading"><h2 id="abstract-title">Abstract</h2><p>From Web evidence<br>to trustworthy defense.</p></div>
+      <div class="reading-copy"><p>Threat reports published on the Web, such as vendor blogs, security advisories, and incident write-ups, are where defenders first learn how an attack unfolds. Large language models (LLMs) can now read these reports at scale, but what they produce feeds directly into defense decisions. A fluent answer is not enough: every step from report to action has to be trustworthy.</p><p>This tutorial follows threat knowledge from reports to defense and beyond, organized around four properties: traceable knowledge, faithful reasoning, reproducible scenarios, and verifiable outcomes. For each stage, we survey representative methods, benchmarks, and the gaps that remain open, and show how its output becomes the input of the next stage. The tutorial closes with an integrated demonstration and a discussion of open questions.</p></div>
+    </section>
+
+    <section id="overview" class="overview-section section-wrap" aria-labelledby="overview-title">
+      <div class="section-intro"><h2 id="overview-title">Tutorial overview</h2><p>Four connected stages. Each asks one question about trust and passes its answer to the next.</p></div>
+      <div class="pathway">
+        <div class="pathway-source"><svg aria-hidden="true"><use href="#document"/></svg><div><span>Starts with</span><strong>Web threat reports</strong></div><p>Original cyber threat intelligence (CTI) reports</p></div>
+        <ol class="stages"><li class="stage"><div class="stage-step" aria-hidden="true"><span class="stage-marker">1</span><span class="stage-connector"><span>Evidence</span></span></div><h3><span>Traceable</span></h3><p class="stage-topic">Structured attack representation</p><p class="stage-question">Can extracted attack knowledge be traced back to its sources?</p><div class="stage-output"><span>Passes on</span><p>Attack representations with source-linked evidence</p></div></li><li class="stage"><div class="stage-step" aria-hidden="true"><span class="stage-marker">2</span><span class="stage-connector"><span>Hypotheses</span></span></div><h3><span>Faithful</span></h3><p class="stage-topic">Reasoning over threat knowledge</p><p class="stage-question">Do LLM judgments stay faithful to what the threat reports support?</p><div class="stage-output"><span>Passes on</span><p>Reasoning conclusions, uncertainty, and hypotheses to be tested</p></div></li><li class="stage"><div class="stage-step" aria-hidden="true"><span class="stage-marker">3</span><span class="stage-connector"><span>Scenarios</span></span></div><h3><span>Reproducible</span></h3><p class="stage-topic">Attack scenario specifications</p><p class="stage-question">Can the environment an attack needs be specified precisely enough to re-enact the attack?</p><div class="stage-output"><span>Passes on</span><p>Environment requirements and attack scenario specifications</p></div></li><li class="stage"><div class="stage-step" aria-hidden="true"><span class="stage-marker">4</span></div><h3><span>Verifiable</span></h3><p class="stage-topic">Attack–defense co-evolution</p><p class="stage-question">When attack and defense agents evolve against each other, can each confrontation’s outcome be verified rather than self-reported?</p><div class="stage-output"><span>Delivers</span><p>Range-based execution, outcome verification, and iterative improvement</p></div></li></ol>
+      </div>
+    </section>
+
+    <section class="learning-section section-wrap" aria-label="Audience and learning outcomes">
+      <div class="audience-prerequisites"><section class="audience-copy" aria-labelledby="audience-title"><h2 id="audience-title">Target audience</h2><p>Researchers, graduate students, and practitioners in Web information retrieval, natural language processing, and cybersecurity who want to use LLMs to turn Web threat reports into actionable security knowledge.</p></section><section class="prerequisites-copy" aria-labelledby="prerequisites-title"><h2 id="prerequisites-title">Prerequisites</h2><p>Basic familiarity with LLMs. Essential security concepts will be introduced during the tutorial.</p></section></div>
+      <div class="outcome-copy"><h2>What you will learn</h2><ul><li><span aria-hidden="true">✓</span><p>Construct traceable attack representations from heterogeneous Web sources.</p></li><li><span aria-hidden="true">✓</span><p>Assess the reliability of LLM reasoning over threat knowledge.</p></li><li><span aria-hidden="true">✓</span><p>Translate threat knowledge into reproducible attack scenarios.</p></li><li><span aria-hidden="true">✓</span><p>Evaluate the evidence behind attack–defense outcomes.</p></li></ul></div>
+    </section>
+
+    <div class="availability-section section-wrap">
+      <section id="agenda" class="availability-card" aria-labelledby="agenda-title"><div class="availability-top"><span class="resource-icon"><svg aria-hidden="true"><use href="#calendar"/></svg></span><h2 id="agenda-title">Agenda</h2></div><span class="status-badge">Coming soon</span></section>
+      <section id="slides" class="availability-card" aria-labelledby="slides-title"><div class="availability-top"><span class="resource-icon"><svg aria-hidden="true"><use href="#presentation"/></svg></span><h2 id="slides-title">Slides and materials</h2></div><span class="status-badge">Coming soon</span></section>
+    </div>
+
+    <section id="organizers" class="organizer-section section-wrap" aria-labelledby="organizers-title"><div class="section-intro"><h2 id="organizers-title">Organizers</h2><p>Researchers from NUS, Peking University, and SMU.</p></div><ul class="people-grid"><li class="person"><div class="portrait"><img src="assets/people/haokai-ma.webp" alt="Haokai Ma" width="128" height="128" loading="lazy"></div><h3><a href="https://hulkima.github.io/" target="_blank" rel="noopener noreferrer">Haokai Ma</a></h3><p class="person-role">Postdoctoral Research Fellow</p><p class="person-affiliation">National University of Singapore</p></li><li class="person"><div class="portrait"><span class="initials" aria-hidden="true">YM</span></div><h3>Yuhan Meng</h3><p class="person-affiliation">Peking University</p></li><li class="person"><div class="portrait"><span class="initials" aria-hidden="true">AY</span></div><h3><a href="https://curiosity.comp.nus.edu.sg/people.html" target="_blank" rel="noopener noreferrer">Anis Yusof</a></h3><p class="person-affiliation">National University of Singapore</p></li><li class="person"><div class="portrait"><img src="assets/people/yunshan-ma.webp" alt="Yunshan Ma" width="128" height="128" loading="lazy"></div><h3><a href="https://mysbupt.github.io/" target="_blank" rel="noopener noreferrer">Yunshan Ma</a></h3><p class="person-role">Assistant Professor</p><p class="person-affiliation">Singapore Management University</p></li><li class="person"><div class="portrait"><img src="assets/people/ding-li.webp" alt="Ding Li" width="128" height="128" loading="lazy"></div><h3><a href="https://marapapman.github.io/" target="_blank" rel="noopener noreferrer">Ding Li</a></h3><p class="person-role">Assistant Professor</p><p class="person-affiliation">Peking University</p><span class="tentative">To be confirmed</span></li><li class="person"><div class="portrait"><img src="assets/people/zhenkai-liang.webp" alt="Zhenkai Liang" width="128" height="128" loading="lazy"></div><h3><a href="https://www.comp.nus.edu.sg/cs/people/liangzk/" target="_blank" rel="noopener noreferrer">Zhenkai Liang</a></h3><p class="person-role">Associate Professor</p><p class="person-affiliation">National University of Singapore</p></li><li class="person"><div class="portrait"><img src="assets/people/ee-chien-chang.webp" alt="Ee-Chien Chang" width="128" height="128" loading="lazy"></div><h3><a href="https://www.comp.nus.edu.sg/cs/people/changec/" target="_blank" rel="noopener noreferrer">Ee-Chien Chang</a></h3><p class="person-role">Associate Professor</p><p class="person-affiliation">National University of Singapore</p></li></ul></section>
+
+    <section id="links" class="links-section section-wrap" aria-labelledby="links-title">
+      <div class="section-heading"><h2 id="links-title">Important links</h2></div>
+      <ul class="resource-links">
+        <li><span class="resource-name"><span class="resource-icon"><svg aria-hidden="true"><use href="#presentation"/></svg></span><span>Tutorial slides</span></span><span class="status-badge">Coming soon</span></li>
+        <li><span class="resource-name"><span class="resource-icon"><svg aria-hidden="true"><use href="#book"/></svg></span><span>Reading list</span></span><span class="status-badge">Coming soon</span></li>
+        <li><span class="resource-name"><span class="resource-icon"><svg aria-hidden="true"><use href="#globe"/></svg></span><span>WWW 2027</span></span><a href="https://www2027.thewebconf.org/" target="_blank" rel="noopener noreferrer">Conference website<svg aria-hidden="true"><use href="#external"/></svg></a></li>
+        <li><span class="resource-name"><span class="resource-icon"><svg aria-hidden="true"><use href="#document"/></svg></span><span>WWW 2027 tutorials</span></span><a href="https://www2027.thewebconf.org/tutorials/" target="_blank" rel="noopener noreferrer">Tutorial information<svg aria-hidden="true"><use href="#external"/></svg></a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+<footer class="site-footer section-wrap"><div><p class="footer-title">From Reports, Beyond Reports</p><p>A tutorial proposal for WWW 2027, Dublin, Ireland.</p></div><a href="mailto:haokai.ma@nus.edu.sg">Contact the organizers<svg aria-hidden="true"><use href="#external"/></svg><span>haokai.ma@nus.edu.sg</span></a></footer>
+<svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol><symbol id="document" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8l-5-5Z M14 3v5h5 M8 12h8M8 16h6"/></symbol><symbol id="calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 11h18M8 15h2M14 15h2"/></symbol><symbol id="presentation" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M12 17v4M8 21h8"/></symbol><symbol id="book" viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h14v18H6a2 2 0 0 1 0-4h14M8 7h8M8 11h6"/></symbol><symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></symbol></svg>
+</body>
+</html>
