@@ -1,0 +1,84 @@
+{
+  "verified_on": "2026-10-16",
+  "organizers": [
+    {
+      "name": "Haokai Ma",
+      "affiliation": "National University of Singapore",
+      "role": "Postdoctoral Research Fellow",
+      "profile": "https://hulkima.github.io/",
+      "image_url": "https://hulkima.github.io/files/hulki_profile_serious.JPG",
+      "filename": "haokai-ma.jpg",
+      "local_path": "outputs/tutorial-homepage/assets/people/haokai-ma.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 4380980,
+      "web_asset": "assets/people/haokai-ma.webp"
+    },
+    {
+      "name": "Yuhan Meng",
+      "affiliation": "Peking University",
+      "role": "",
+      "profile": "",
+      "image_url": "",
+      "filename": "",
+      "note": "No confident personal homepage or headshot found; use YM initials. Affiliation from supplied proposal."
+    },
+    {
+      "name": "Anis Yusof",
+      "affiliation": "National University of Singapore",
+      "role": "",
+      "profile": "https://curiosity.comp.nus.edu.sg/people.html",
+      "image_url": "",
+      "filename": "",
+      "note": "Confirmed on institutional laboratory roster, which uses a default avatar. Use AY initials."
+    },
+    {
+      "name": "Yunshan Ma",
+      "affiliation": "Singapore Management University",
+      "role": "Assistant Professor",
+      "profile": "https://mysbupt.github.io/",
+      "image_url": "https://mysbupt.github.io/image/profile.png",
+      "filename": "yunshan-ma.png",
+      "local_path": "outputs/tutorial-homepage/assets/people/yunshan-ma.png",
+      "content_type": "image/png",
+      "bytes": 1366093,
+      "web_asset": "assets/people/yunshan-ma.webp"
+    },
+    {
+      "name": "Ding Li",
+      "affiliation": "Peking University",
+      "role": "Assistant Professor",
+      "profile": "https://marapapman.github.io/",
+      "image_url": "https://marapapman.github.io/images/prof_pic.jpg",
+      "filename": "ding-li.jpg",
+      "note": "Participation marked TBD in supplied proposal. Role corroborated at https://www.ai.pku.edu.cn/en/info/1458/2025.htm",
+      "local_path": "outputs/tutorial-homepage/assets/people/ding-li.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 636321,
+      "web_asset": "assets/people/ding-li.webp"
+    },
+    {
+      "name": "Zhenkai Liang",
+      "affiliation": "National University of Singapore",
+      "role": "Associate Professor",
+      "profile": "https://www.comp.nus.edu.sg/cs/people/liangzk/",
+      "image_url": "https://www.comp.nus.edu.sg/~sochr/www/stfphotos/liangzk.jpg",
+      "filename": "zhenkai-liang.jpg",
+      "local_path": "outputs/tutorial-homepage/assets/people/zhenkai-liang.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 116583,
+      "web_asset": "assets/people/zhenkai-liang.webp"
+    },
+    {
+      "name": "Ee-Chien Chang",
+      "affiliation": "National University of Singapore",
+      "role": "Associate Professor",
+      "profile": "https://www.comp.nus.edu.sg/cs/people/changec/",
+      "image_url": "https://www.comp.nus.edu.sg/~sochr/www/stfphotos/changec.jpg",
+      "filename": "ee-chien-chang.jpg",
+      "local_path": "outputs/tutorial-homepage/assets/people/ee-chien-chang.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 118044,
+      "web_asset": "assets/people/ee-chien-chang.webp"
+    }
+  ]
+}

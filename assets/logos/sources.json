@@ -1,0 +1,41 @@
+{
+  "retrieved_on": "2026-10-16",
+  "assets": [
+    {
+      "file": "nus.gif",
+      "institution": "National University of Singapore",
+      "source_url": "https://www.comp.nus.edu.sg/~cs3202/nus-logo.gif",
+      "source_page": "https://www.comp.nus.edu.sg/~cs3202/",
+      "brand_guidelines": "https://www.nus.edu.sg/identity/guidelines/logo-guideline",
+      "format": "GIF",
+      "width": 208,
+      "height": 105,
+      "background": "white",
+      "notes": "Unmodified official university-hosted complete horizontal logo. Raster source has built-in white margins; keep display at or below native dimensions. The primary central identity image endpoint returned an anti-bot page to downloads, so this School of Computing-hosted copy is used."
+    },
+    {
+      "file": "pku.png",
+      "institution": "Peking University",
+      "source_url": "https://www.pku.edu.cn/Uploads/Picture/2019/12/26/s5e04176fbbfa3.png",
+      "source_page": "https://www.pku.edu.cn/",
+      "brand_guidelines": "https://www.pku.edu.cn/IdentificationSystem.html",
+      "format": "PNG",
+      "width": 852,
+      "height": 240,
+      "background": "transparent",
+      "notes": "Unmodified official university main-site header asset; complete horizontal seal and bilingual namestyle."
+    },
+    {
+      "file": "smu.svg",
+      "institution": "Singapore Management University",
+      "source_url": "https://cis.smu.edu.sg/themes/smubase_5g/assets/site-headers/logo-smu-d.svg?revised=20251228",
+      "source_page": "https://cis.smu.edu.sg/",
+      "brand_guidelines": "https://www.smu.edu.sg/about/university-brand-identity",
+      "format": "SVG",
+      "viewBox": "0 0 131 70",
+      "background": "transparent",
+      "notes": "Unmodified official SMU university signature served by the College of Integrative Studies site. This is Singapore Management University, not Southern Methodist University."
+    }
+  ],
+  "implementation_notes": "Preserve the intrinsic aspect ratio and original colours. Place on white with adequate breathing room. These are institutional identity assets, not original artwork or newly licensed stock images."
+}

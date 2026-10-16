@@ -1,0 +1,57 @@
+{
+  "source": "Google Fonts official CSS API and google/fonts repository",
+  "css_api": "https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Source+Sans+3:wght@400;600&display=swap",
+  "retrieved": "2026-10-16",
+  "files": [
+    {
+      "file": "manrope-latin-variable.woff2",
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+      "bytes": 24576,
+      "sha256": "e310b55a7fd9677f5e3555e6c6c4d064fa1f1d24393f0ddbe217cea12a8c432f",
+      "family": "Manrope ExtraLight",
+      "typographic_family": null,
+      "full_name": "Manrope ExtraLight",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "default": 200.0,
+          "max": 800.0
+        }
+      ],
+      "flavor": "woff2",
+      "glyph_count": 280
+    },
+    {
+      "file": "source-sans-3-latin-variable.woff2",
+      "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpStKy2OAdR1K-IwhWudF-R3w8aZejf5Hc.woff2",
+      "bytes": 28804,
+      "sha256": "587435ca9d90732b8c1ce4958222c6ad3ade2b875500188e1d318efbcb61f4c5",
+      "family": "Source Sans 3 ExtraLight",
+      "typographic_family": null,
+      "full_name": "Source Sans 3",
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "default": 200.0,
+          "max": 900.0
+        }
+      ],
+      "flavor": "woff2",
+      "glyph_count": 324
+    },
+    {
+      "file": "Manrope-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "file": "Source-Sans-3-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    }
+  ]
+}
